@@ -24,6 +24,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('Firebase Meetup'),
       ),
+      // For showing all the element....
       body: ListView(
         children: [
           Image.asset('assets/codelab.png'),
